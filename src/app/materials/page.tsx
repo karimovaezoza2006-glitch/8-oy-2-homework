@@ -1,8 +1,12 @@
 import React from 'react'
-
+import MaterialCategory from '../../../components/materials/MaterialCategory'
+import MaterialPages from '../../../components/materials/MaterailPages'
 const Materiallar = () => {
   return (
-    <div>Materiallar va buyumlar</div>
+    <div>
+      <MaterialCategory/>
+      <MaterialPages/>
+    </div>
   )
 }
 
