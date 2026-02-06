@@ -12,7 +12,7 @@ import instagram from "@/assets/img/instagram.svg";
 export default function Footer() {
   return (
     <footer className="bg-[#28386B] text-white pt-12 pb-6">
-      <div className="max-w-[1440px] mx-auto px-6">
+      <div className="max-w-[1440px] ">
         <div className="grid grid-cols-1 md:grid-cols-3 gap-10">
           
           {/* LEFT */}
@@ -72,8 +72,7 @@ export default function Footer() {
             />
 
             <button
-              className="w-full bg-[#1E90FF] hover:bg-[#1877D8]
-                         transition-colors text-white py-2 rounded-md text-[14px]"
+              className="w-full bg-[#1E90FF] hover:bg-[#1877D8] transition-colors text-white py-2 rounded-md text-[14px]"
             >
               Obuna bo‘lish
             </button>

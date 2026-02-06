@@ -1,8 +1,10 @@
 import React from 'react'
-
+import MechanizationPage from '../../../components/mechanization/MechanizationPage';
 const Mexanizm = () => {
   return (
-    <div>Kichik Mexanizatsiya</div>
+    <div>
+        <MechanizationPage/>
+    </div>
   )
 }
 

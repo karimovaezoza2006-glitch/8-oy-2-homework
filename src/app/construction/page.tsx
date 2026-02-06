@@ -1,8 +1,10 @@
 import React from 'react'
-
+import ProductsPage from '../../../components/construction/ProductsPage'
 const qurilish = () => {
   return (
-    <div>qurilish ishlari</div>
+    <div>
+      <ProductsPage/>
+    </div>
   )
 }
 
